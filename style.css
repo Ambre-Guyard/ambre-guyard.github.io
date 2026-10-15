@@ -95,10 +95,13 @@ p { margin: 0 0 1em; }
   color: var(--text);
 }
 .logo-mark {
+  width: 56px;
   height: 56px;
-  width: auto;
-  max-width: 180px;
-  object-fit: contain;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--white);
+  border: 2px solid var(--rose);
+  box-shadow: 0 3px 10px rgba(94, 80, 66, 0.12);
   flex-shrink: 0;
 }
 .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
